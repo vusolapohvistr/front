@@ -3,7 +3,7 @@ import { User } from './components/SignIn';
 const headers = new Headers(
     {"Content-Type": "application/json",
         "Accept":"application/json"});
-const domain = 'http://localhost:3000';
+const domain = '';
 
 
 type httpMethods = 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE'

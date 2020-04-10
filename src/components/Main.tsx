@@ -33,6 +33,7 @@ const useStyles = makeStyles((theme) => ({
     apikey: {
         marginTop: theme.spacing(1),
         marginBottom: theme.spacing(1),
+        overflowWrap: 'break-word',
     },
 }));
 
@@ -80,7 +81,7 @@ function Main({
             <ModalHelp open={openedModal} onClose={() => setOpenedModal(false)}/>
             <AppBar position="static">
                 <Toolbar className={classes.toolbar}>
-                    <Typography variant="h6">
+                    <Typography variant="h6" display="block">
                         ElComments
                     </Typography>
                     <div>

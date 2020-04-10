@@ -11,7 +11,6 @@ import { Comment } from '../api';
 
 const useStyles = makeStyles({
     table: {
-        minWidth: 650,
     },
 });
 
